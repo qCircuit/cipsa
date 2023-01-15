@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>documento sin titulo</title>
+
+	</head>
+
+	<body>
+
+		<div>
+			
+			<fieldset>
+
+				<legend>Datos de dueno de mascota</legend>
+
+				<label for="elnombre">Nombre:</label>
+
+				<input id="elnombre" type="text" name="nombre" aria-placeholder="Introduzca su nombre aqui">
+				<label for="eltelefono">El telefono:</label>
+
+				<input id="eltelefono" type="tel" name="telefono" value="+34123456789" required pattern="+34-[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Debe introducir valor numerico de ocho cifras">
+			
+			</fieldset>
+
+		</div>
+
+
+		<div>
+
+			<datalist id="tipos_lista">
+				
+				<option value="Perro" label="amigo">
+
+				<option value="Gato" label="don">
+
+				<option value="Raton" label="senor">
+
+			</datalist>
+			
+			<label for="latipo">Tipo de mascota:</label>
+
+			<input id="latipo" type="text" name="tipo" list="tipos_lista">
+
+		</div>
+
+		<div>
+			
+			<label for="laraza">Raza de mascota:</label>
+			
+			<input id="laraza" type="text" name="raza">
+
+		</div>
+
+		<div>
+			
+			<label for="elcorreo">Correo electronico:</label>
+			
+			<input id="elcorreo" type="text" name="correo" value="@">
+
+		</div>
+
+		<div>
+			
+			<p>Peso:</p>
+
+			<div>
+
+				<input id="pesogrupo0" type="radio" name="peso"> 
+				
+				<label for"pesogrupo0">0-3</label>
+			
+			</div>
+
+			<div>
+
+				<input id="pesogrupo1" type="radio" name="peso"> 
+				
+				<label for"pesogrupo1">4-9</label>
+				
+			</div>
+
+			<div>
+
+				<input id="pesogrupo2" type="radio" name="peso"> 
+				
+				<label for"pesogrupo2">10-15</label>
+				
+			</div>
+
+			<div>
+
+				<input id="pesogrupo3" type="radio" name="peso"> 
+				
+				<label for"pesogrupo3">mas que 16</label>
+			
+			</div>
+
+		</div>
+
+		<div>
+			
+			<p>Que servicios se requieren:</p>
+
+			<div>
+				
+				<input id="elcorto" type="checkbox" name="corto">
+				
+				<label for="elcorto">Corte de piel</label>
+
+			</div>
+
+			<div>
+				
+				<input id="ellavado" type="checkbox" name="lavado">
+				
+				<label for="ellavado">Lavado</label>
+
+			</div>
+
+			<div>
+				
+				<input id="ellimpieza" type="checkbox" name="limpieza">
+				
+				<label for="ellimpieza">Limpieza de oidos</label>
+
+			</div>
+
+		</div>
+
+		<div>
+
+			<label for="elcomentario">Tu commentarios:</label>
+			
+			<br>
+
+			<textarea id="elcomentario" name="comentario" cols="30" rows="10">Escribe tu comentarios</textarea>
+
+		</div>
+
+		<div>
+			
+				
+			<label for="elmaestro">Selecio el maestro</label>
+
+			<select id="elmaestro" name="maestro">
+
+				<option>Carlos Rodriguez</option>
+
+				<option>Maria Pombo</option>
+
+				<option>Diego Costa</option>
+
+			</select>
+
+		</div>
+		
+		<div>
+		
+			<input type="submit">
+
+			<input type="reset">
+
+		</div>
+
+
+
+		</form>
+
+	</body>
+
+</html>
+		</div>
+
+		</form>
+
+	</body>
+
+</html>

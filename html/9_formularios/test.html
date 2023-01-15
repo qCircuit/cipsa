@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+
+		<h1>SOMETHING</h1>
+	
+	</head>
+
+<form action="pagina_de_proceso.php" method="post">
+<fieldset>
+<legend>Datos personales:</legend>
+<label for="nom">Nombre:</label>
+<input type="text" name="texto" id="nom" placeholder="Introduzca su nombre aquí">
+<label for="nom">Contraseña:</label>
+<input type="password" name="contra" value="12345678">
+<label>E-mail:</label>
+<input type="email" name="correo">
+</fieldset>
+<fieldset>
+<legend>Gustos personales</legend>
+<select size="3" multiple>
+<option>Me gusta viajar</option>
+<option>Psicologia</option>
+<option>Ciencia</option>
+<option>Deportes</option>
+</select>
+</fieldset>
+<p>Acepta las condiciones de subscripción <input type="checkbox" name="check" value="aceptado"></p>
+<input type="submit" name="envio" value="Regístrame ahora">
+</form>
+
+</html>
