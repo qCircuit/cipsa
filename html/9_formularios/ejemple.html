@@ -10,170 +10,162 @@
 	</head>
 
 	<body>
-
-		<div>
-			
-			<fieldset>
-
-				<legend>Datos de dueno de mascota</legend>
-
-				<label for="elnombre">Nombre:</label>
-
-				<input id="elnombre" type="text" name="nombre" aria-placeholder="Introduzca su nombre aqui">
-				<label for="eltelefono">El telefono:</label>
-
-				<input id="eltelefono" type="tel" name="telefono" value="+34123456789" required pattern="+34-[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Debe introducir valor numerico de ocho cifras">
-			
-			</fieldset>
-
-		</div>
-
-
-		<div>
-
-			<datalist id="tipos_lista">
-				
-				<option value="Perro" label="amigo">
-
-				<option value="Gato" label="don">
-
-				<option value="Raton" label="senor">
-
-			</datalist>
-			
-			<label for="latipo">Tipo de mascota:</label>
-
-			<input id="latipo" type="text" name="tipo" list="tipos_lista">
-
-		</div>
-
-		<div>
-			
-			<label for="laraza">Raza de mascota:</label>
-			
-			<input id="laraza" type="text" name="raza">
-
-		</div>
-
-		<div>
-			
-			<label for="elcorreo">Correo electronico:</label>
-			
-			<input id="elcorreo" type="text" name="correo" value="@">
-
-		</div>
-
-		<div>
-			
-			<p>Peso:</p>
-
+	
+		<form action="#" method="post">
 			<div>
-
-				<input id="pesogrupo0" type="radio" name="peso"> 
 				
-				<label for"pesogrupo0">0-3</label>
-			
+				<fieldset>
+
+					<legend>Datos de dueno de mascota</legend>
+
+					<label for="elnombre">Nombre:</label>
+
+					<input id="elnombre" type="text" name="nombre" aria-placeholder="Introduzca su nombre aqui">
+					<label for="eltelefono">El telefono:</label>
+
+					<input id="eltelefono" type="tel" name="telefono" value="+34123456789" required pattern="+34-[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Debe introducir valor numerico de ocho cifras">
+				
+				</fieldset>
+
 			</div>
 
-			<div>
-
-				<input id="pesogrupo1" type="radio" name="peso"> 
-				
-				<label for"pesogrupo1">4-9</label>
-				
-			</div>
 
 			<div>
 
-				<input id="pesogrupo2" type="radio" name="peso"> 
-				
-				<label for"pesogrupo2">10-15</label>
-				
-			</div>
+				<datalist id="tipos_lista">
+					
+					<option value="Perro" label="amigo">
 
-			<div>
+					<option value="Gato" label="don">
 
-				<input id="pesogrupo3" type="radio" name="peso"> 
+					<option value="Raton" label="senor">
+
+				</datalist>
 				
-				<label for"pesogrupo3">mas que 16</label>
-			
-			</div>
+				<label for="latipo">Tipo de mascota:</label>
 
-		</div>
-
-		<div>
-			
-			<p>Que servicios se requieren:</p>
-
-			<div>
-				
-				<input id="elcorto" type="checkbox" name="corto">
-				
-				<label for="elcorto">Corte de piel</label>
+				<input id="latipo" type="text" name="tipo" list="tipos_lista">
 
 			</div>
 
 			<div>
 				
-				<input id="ellavado" type="checkbox" name="lavado">
+				<label for="laraza">Raza de mascota:</label>
 				
-				<label for="ellavado">Lavado</label>
+				<input id="laraza" type="text" name="raza">
 
 			</div>
 
 			<div>
 				
-				<input id="ellimpieza" type="checkbox" name="limpieza">
+				<label for="elcorreo">Correo electronico:</label>
 				
-				<label for="ellimpieza">Limpieza de oidos</label>
+				<input id="elcorreo" type="text" name="correo" value="@">
 
 			</div>
 
-		</div>
-
-		<div>
-
-			<label for="elcomentario">Tu commentarios:</label>
-			
-			<br>
-
-			<textarea id="elcomentario" name="comentario" cols="30" rows="10">Escribe tu comentarios</textarea>
-
-		</div>
-
-		<div>
-			
+			<div>
 				
-			<label for="elmaestro">Selecio el maestro</label>
+				<p>Peso:</p>
 
-			<select id="elmaestro" name="maestro">
+				<div>
 
-				<option>Carlos Rodriguez</option>
+					<input id="pesogrupo0" type="radio" name="peso"> 
+					
+					<label for"pesogrupo0">0-3</label>
+				
+				</div>
 
-				<option>Maria Pombo</option>
+				<div>
 
-				<option>Diego Costa</option>
+					<input id="pesogrupo1" type="radio" name="peso"> 
+					
+					<label for"pesogrupo1">4-9</label>
+					
+				</div>
 
-			</select>
+				<div>
 
-		</div>
-		
-		<div>
-		
-			<input type="submit">
+					<input id="pesogrupo2" type="radio" name="peso"> 
+					
+					<label for"pesogrupo2">10-15</label>
+					
+				</div>
 
-			<input type="reset">
+				<div>
 
-		</div>
+					<input id="pesogrupo3" type="radio" name="peso"> 
+					
+					<label for"pesogrupo3">mas que 16</label>
+				
+				</div>
 
+			</div>
 
+			<div>
+				
+				<p>Que servicios se requieren:</p>
 
-		</form>
+				<div>
+					
+					<input id="elcorto" type="checkbox" name="corto">
+					
+					<label for="elcorto">Corte de piel</label>
 
-	</body>
+				</div>
 
-</html>
-		</div>
+				<div>
+					
+					<input id="ellavado" type="checkbox" name="lavado">
+					
+					<label for="ellavado">Lavado</label>
+
+				</div>
+
+				<div>
+					
+					<input id="ellimpieza" type="checkbox" name="limpieza">
+					
+					<label for="ellimpieza">Limpieza de oidos</label>
+
+				</div>
+
+			</div>
+
+			<div>
+
+				<label for="elcomentario">Tu commentarios:</label>
+				
+				<br>
+
+				<textarea id="elcomentario" name="comentario" cols="30" rows="10">Escribe tu comentarios</textarea>
+
+			</div>
+
+			<div>
+				
+					
+				<label for="elmaestro">Selecio el maestro</label>
+
+				<select id="elmaestro" name="maestro">
+
+					<option>Carlos Rodriguez</option>
+
+					<option>Maria Pombo</option>
+
+					<option>Diego Costa</option>
+
+				</select>
+
+			</div>
+			
+			<div>
+			
+				<input type="submit">
+
+				<input type="reset">
+
+			</div>
 
 		</form>
 
