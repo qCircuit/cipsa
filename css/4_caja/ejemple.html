@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+        <title>el titulo</title>
+        <style type="text/css">
+            *{margin: 0; padding:0;}
+            div{
+                width: 880px;
+                margin: 2em auto;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h2{
+                background-color: blue;
+            }
+            .margen {
+                margin:3em;
+                border:2px solid #155; 
+            }
+            .relleno {
+                padding:3em;
+                border:2px solid #299;
+            }
+            #contenedor{
+                width:350px;
+                margin: 3em auto;
+                background: #519;
+                text-align: center;   
+            }
+            .sincajasizing{
+                width:500px;
+                margin: 20px auto;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            .concajasizing{
+                width: 500px;
+                margin: 20px auto;
+                padding: 50px;
+                border: solid blanchedalmond 1px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Albert Einstein </h2>
+        <p class="margen">En 1915, presentó la teoría de la relatividad general, en la que reformuló por completo el concepto de la gravedad.</p>
+        <p class="relleno">En 1905 finalizó su doctorado presentando una tesis titulada Una nueva determinación de las dimensiones moleculares.</p>
+        <div id="contenedor">
+            <h3>Algunas publicaciones</h3>
+            <p>Folgerungen aus den Capillaritätserscheinungen</p>
+        </div>
+        <div class="sincajasizing">esta caja esta sin borde ni padding</div>
+        <div class="concajasizing">esta caja esta con borde y padding</div>
+    </body>
+</html>
