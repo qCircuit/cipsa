@@ -1,0 +1,12 @@
+/*este es el código que hemos copiado de la css descargada. Y hemos actualizado la ruta*/
+@font-face{ font-family: 'quicksandlight ';
+src:url('fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),;
+src:url(' fonts/quicksand-light-webfont.woff2') format('woff2'),
+    url(' fonts/quicksand-light-webfont.woff') format('woff'),
+    url(' fonts/quicksand-light-webfont.ttf') format('truetype'),
+    url(' fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+}
+/*aplicamos la Fuente al selector que nos interesa*/
+#ejemplo {
+font-family: 'quicksandlight ';
+}
