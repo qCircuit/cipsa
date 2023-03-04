@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style>	
+		*{margin: 0; padding: 0; box-sizing: border-box;}
+		h1{
+			background-color:maroon;
+			color: #fff;
+			padding: 1em;
+			width: 100%;
+			position: fixed;
+			z-index: 2;
+			top: 0;	
+		}
+		#contenedor{
+			background-color: beige;
+			width: 80%;
+			margin: auto;
+			margin-top: 6em;
+			padding: 2em;
+			position: relative;
+		}
+	
+		.chocolate{
+			background-color:chocolate;
+			width: 30%;
+			padding: 1em;
+			position: absolute;
+			top: 5em;
+			right: 5em;
+			z-index: 3;
+			}
+		.amarillo{
+			background-color:gold;
+			padding: 1em;
+			position: absolute;
+			top: 0;
+			left: 0;
+			}
+		.verde{
+			background-color: greenyellow;
+			width: 50%;
+			padding: 1em;
+			position: absolute;
+			top: 10em;
+			left: 4em;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>TITULO SIEMPRE VISIBLE</h1>
+
+	<p class="chocolate">PÁRRAFO CHOCOLATE: Este párrafo está colocado con respecto a &lt;body&gt;.</p>
+	
+	<div id="contenedor">
+
+		<p class="amarillo">PÁRRAFO AMARILLO: Este es el primer párrafo dentro del contenedor.</p>
+	
+		<p class="verde">PÁRRAFO VERDE: Este párrafo está colocado con respecto al contenedor.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie neque ipsum, nec venenatis lacus aliquam id. In auctor augue in convallis ullamcorper. Nam accumsan odio sed libero maximus luctus. Quisque congue lacus non dapibus suscipit. Praesent enim lacus, aliquam tempor scelerisque in, rhoncus et tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis quis urna viverra justo porta faucibus. Donec scelerisque tincidunt tortor, quis sagittis lorem fermentum id. Fusce quis eros magna. Ut vel sapien consectetur, consequat quam sit amet, viverra ligula. Phasellus fringilla est eget metus euismod feugiat.</p>
+
+		<p>Mauris a consectetur justo, quis consequat nibh. Nunc non velit quis metus facilisis dictum non id odio. Aenean odio orci, consectetur sed semper ut, lacinia ut ipsum. Sed imperdiet nec nunc vitae interdum. Aliquam et libero varius, volutpat nunc at, fermentum dui. Vivamus in metus ac odio molestie mollis. Vestibulum finibus et purus et viverra. Etiam mi mauris, auctor ac ligula vel, tempor tempus ante. Praesent at porta nibh, in dignissim ligula. Aliquam nisi augue, aliquet ut arcu scelerisque, commodo semper tortor. Nullam vulputate, quam id ullamcorper rhoncus, arcu ipsum interdum urna, at luctus nisi dui sodales lorem. Suspendisse nec odio sollicitudin, porta eros id, ultrices libero. Phasellus augue leo, cursus nec dolor sit amet, dictum tincidunt ante. Donec eleifend odio non feugiat tristique. Proin vel vehicula libero.</p>
+
+		<p>Vivamus interdum elit eu nisi efficitur dapibus. Mauris porttitor ut lectus vitae efficitur. Integer eget viverra nisi. Maecenas massa erat, hendrerit et placerat a, pretium id lectus. In suscipit feugiat rutrum. Nunc quis nibh id lacus laoreet porta vitae eu urna. Donec bibendum risus tincidunt purus maximus ultrices. Cras sollicitudin mi eget nisl pellentesque fringilla. Nulla dignissim, magna at congue cursus, arcu est egestas ante, id tristique velit diam non lorem. Maecenas quis maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+		<p>Sed quis augue quis diam aliquam tempor. Cras vulputate feugiat bibendum. Praesent libero augue, tempus pulvinar massa nec, interdum convallis lacus. Curabitur quis varius ipsum. Proin blandit libero enim, eu viverra leo gravida vitae. Aliquam orci ipsum, pulvinar nec dapibus et, porttitor ac elit. Curabitur sed augue laoreet, bibendum lorem finibus, faucibus justo. Nunc in mauris sit amet ligula dictum posuere quis eu orci. Vestibulum nec nunc sagittis, lobortis velit vel, auctor erat. Morbi eu vulputate lectus.</p>
+
+		<p>Pellentesque dignissim urna et urna fringilla laoreet. Nunc libero purus, euismod nec ultricies quis, pellentesque ut mauris. Vivamus et elit laoreet, varius urna a, fermentum mi. Aenean maximus a nisl mattis lacinia. Donec dignissim aliquet arcu quis eleifend. Nunc mattis, quam sed bibendum dictum, enim quam imperdiet elit, ut pellentesque nisl eros id nisi. Nulla mattis tempus congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras id volutpat augue, vel iaculis dolor. Cras blandit est vel massa aliquam, eget convallis metus condimentum.</p>
+
+		<p>In blandit congue lectus, vel scelerisque lacus rhoncus eu. Proin sollicitudin rhoncus eros et condimentum. Pellentesque odio mi, ullamcorper sed pulvinar non, convallis sit amet enim. Aliquam ornare odio neque. Maecenas quis tellus eget diam hendrerit elementum. In et ligula facilisis, convallis nisl lobortis, laoreet diam. Mauris sem dui, ullamcorper at leo nec, finibus vestibulum ante. Vestibulum a ante a libero tincidunt maximus sit amet eget dui. Praesent fermentum dolor tortor, sit amet molestie quam rhoncus ac. Etiam in feugiat ligula.</p>
+
+		<p>Aenean viverra eget sapien a dictum. Etiam quis rhoncus nisl. Sed ultrices, odio et tristique sodales, nibh nisi lobortis nisi, sit amet ullamcorper magna enim quis mauris. Aliquam vitae turpis sit amet tellus scelerisque accumsan. Integer euismod mi mi, ac lacinia diam suscipit nec. Nullam consectetur eu odio non maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam non commodo diam. Ut maximus commodo neque, quis faucibus quam luctus egestas. Cras mollis dictum ultricies. Duis eget sapien a nunc commodo gravida. Nunc maximus ac justo a cursus. Nullam vehicula a odio ut molestie. Ut suscipit sagittis metus.</p>
+
+		<p>	Ut nec rutrum leo. Duis at purus velit. Pellentesque massa orci, bibendum et laoreet interdum, accumsan quis metus. Pellentesque in rhoncus augue, quis semper lacus. Proin nec rhoncus risus. Fusce ut fermentum erat, sagittis luctus quam. Integer interdum quis nisl eget varius. Quisque dui ipsum, ultricies a consequat quis, suscipit et dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+		<p>Donec sapien lorem, laoreet eleifend luctus quis, interdum vel odio. Nunc sodales purus justo, eget egestas purus tincidunt nec. Nam scelerisque purus non velit dignissim, non cursus velit aliquam. Aenean ut ex tempus, eleifend tellus at, facilisis diam. Donec non eleifend leo. Sed ac venenatis urna, sit amet dictum dui. Maecenas porttitor, mauris ut consectetur egestas, urna leo mattis nulla, in vehicula orci nisl nec diam. Sed vulputate neque non velit elementum, vel tristique odio semper. Aliquam aliquet elit ut elit convallis interdum. Donec venenatis ex libero, vel eleifend nisl fermentum at. Ut sed magna sed metus dictum interdum et at lorem. Quisque sit amet vehicula ipsum. Nulla ultricies ornare elit, eu maximus mauris iaculis in. Sed ipsum ex, elementum id sollicitudin sit amet, imperdiet eu metus. Cras in ultricies felis, ac ultrices nulla.</p>
+
+		<p>Nulla urna justo, eleifend et diam eu, cursus tristique felis. Pellentesque sodales turpis eu blandit pulvinar. In vitae justo non turpis posuere aliquam. Donec eget neque ac metus lacinia aliquet et sit amet ante. Pellentesque arcu diam, lobortis sed ipsum quis, consectetur iaculis elit. Nullam sit amet odio sit amet turpis tristique ultricies et sit amet libero. Morbi in dapibus nunc, vel varius sapien. Phasellus ut porttitor augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nibh eget ante tincidunt tincidunt non dapibus diam. Sed ut leo sed lacus semper mollis. Donec iaculis, felis sed commodo condimentum, est dui varius lorem, nec malesuada leo velit eu odio. Phasellus varius enim eget ante dignissim, ac rutrum dui gravida. Nam tempus aliquam quam sit amet ultricies. Nam eget dui id leo faucibus consequat.</p>
+
+		<p>Cras rutrum nisi eget gravida consectetur. Morbi non facilisis tellus. Etiam sollicitudin lobortis vehicula. Aenean suscipit, purus a tincidunt laoreet, lorem dui sagittis magna, vel lobortis justo sem non urna. Nunc ultrices gravida dui a luctus. Maecenas laoreet fermentum sapien eget tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst. Cras varius scelerisque nulla, non pulvinar nisl mollis vitae. In sed dui in ex commodo tempor vitae eget ipsum. Morbi at ullamcorper lorem. Nam facilisis vehicula justo non ullamcorper. Nam ultricies elit lacus, sed consequat enim euismod in.</p>
+
+		<p>Quisque bibendum et ante sed efficitur. Morbi eu turpis justo. Integer vel felis quis diam dictum accumsan et vitae magna. Nam molestie arcu nec rutrum convallis. Praesent porttitor sapien sit amet dui vehicula, non fermentum lectus tempor. Aenean tincidunt nisl id tincidunt hendrerit. Curabitur bibendum pellentesque nisl ut consequat.</p>
+
+		<p>Sed luctus lacinia malesuada. Sed placerat lacus ut leo facilisis condimentum. Phasellus ullamcorper tincidunt cursus. Etiam non dignissim sem. Ut fermentum mattis ipsum, sed vehicula nulla eleifend a. Duis eu ornare lorem. Nullam sed quam nec orci consectetur accumsan sed eu velit. Mauris vitae ex in velit eleifend pretium. Aliquam quis aliquet nibh, vel fringilla ipsum. Maecenas sodales viverra enim. Suspendisse euismod malesuada risus, et dapibus arcu interdum sed. Ut sed posuere leo. Nullam bibendum eget mauris et dapibus. Aliquam viverra enim eu nisl lobortis ultricies.</p>
+
+		<p>Donec vel eros lorem. Vivamus eu efficitur metus. Sed quis rhoncus urna, at suscipit quam. Proin suscipit ante ut lectus commodo, vehicula rhoncus nunc vehicula. Sed eget condimentum tortor. Nam egestas, diam et imperdiet luctus, neque diam aliquet orci, ac mattis nibh nulla et risus. Aenean libero dolor, vestibulum sed vestibulum a, ultrices quis odio.</p>
+
+		<p>Vivamus ac leo nunc. Vestibulum varius, nisl sed varius commodo, elit quam fermentum mauris, vitae sollicitudin eros sem ac enim. Nullam finibus dolor est, sit amet molestie lacus aliquet ac. Praesent justo sem, rutrum sit amet turpis at, vestibulum consectetur sapien. Donec a felis id est accumsan malesuada sed non lorem. Suspendisse interdum semper elit, id accumsan sapien finibus id. Fusce condimentum tortor aliquet lacus lacinia, vel suscipit leo venenatis. Pellentesque at ullamcorper lectus. Cras nec mauris massa. Quisque non tincidunt nulla, non varius augue. Cras ac magna posuere, fermentum risus sit amet, efficitur massa. Quisque molestie massa tempus semper laoreet. Donec non risus nulla. Donec maximus in ligula ut iaculis.</p>
+
+	</div>
+</body>
+</html>

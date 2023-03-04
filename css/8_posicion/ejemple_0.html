@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p style="position: absolute; width: 300px; height: 140px; top: 100px; left: 30px; background-color: red; color:yellow; padding: 15px; z-index: 2;">
+            (0) Esta capa tiene posicionamiento absoluto
+            <br/>
+            (1) Me permite especificar top y left para colocarla con respecto a la esquina superior izguierda
+        </p>
+        <p style="position: absolute; width: 830px; height: 40px; padding:8px; background-color: aqua; top: 120px; left: 15px; z-index: 1;">
+            (2) Posicionamiento absoluto con z-index menor (la capa aparece por debajo de otras que se siperponen con z-index mayor)
+        </p>
+        <p style="position: absolute; width: 1130px; height: 25px; padding: 5px; background-color: blanchedalmond; bottom: 10px; right: 15px;">
+            (3) Posicionamiento absoluto con atribotus bottom y right
+        </p>
+    </body>
+</html>

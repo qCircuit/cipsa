@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ejemple</title>
+    </head>
+
+    <body>
+        <div>
+            <p style="position: relative; background-color: aquamarine;">
+                tres elementos en mismo nivel, positionados relativamente: aquamarine
+            </p>
+            <p style="position: relative; background-color: brown;">
+                tres elementos en mismo nivel, positionados relativamente: moreno
+            </p>
+            <p style="position: relative; background-color: darkblue;">
+                tres elementos en mismo nivel, positionados relativamente: azul 
+            </p>
+            <h1>titulo static</h1>
+            <div style="display: block; position: relative; border: 1px solid #011; padding: 2em">
+                padre static
+                <div style="position: absolute; width: 25%; border: 3px solid #733; padding: 3em; background-color: aliceblue; top: 0; left: 20%;">
+                    hijo absolute
+                </div>
+            </div>
+            <h1>diferencia entre fixed y absolute</h1>
+            <div style="position: fixed; top: 100px; left: 50 px; z-index: 1; width: 250px; height: 110px; background-color: hotpink; color: darkgreen">
+                <p>Esta capa tiene posicionamiento fixed.</p>
+                <p>Se coloca como la absolute, con coordenadas de posición y el z-index.</p>
+                <p>Y, si haces scroll, no se mueve de su posición porque se coloca con respecto a la ventana.</p>
+            </div>
+            <div style="position: absolute; right: 50px; top: 100px; z-index: 2; width: 700px; padding: 10px; 
+                background-color: darkcyan; color: #fff; ">
+                <p>Esta capa tiene posicionamiento absolute.</p>
+                <p>Si haces scroll, se mueve de su posición.</p>
+            </div>
+
+        </div>
+    </body>
+</html>
